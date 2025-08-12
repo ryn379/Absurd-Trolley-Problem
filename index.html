@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absurd Trolley Problem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Comic+Relief:wght@400;700&family=Condiment&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Delius+Swash+Caps&family=Fascinate+Inline&family=Griffy&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rouge+Script&family=Rubik+Moonrocks&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="img-div">
+        <img src="Screenshot 2025-08-12 at 9.08.15 PM.png" alt="">
+        <div id="cases">
+            <p>Enter Number of Cases</p>
+            <button class="btn" id="number_of_cases" type="submit">ENTER</button>
+        </div>
+        <div id="enter">
+            <input id="cases_input" type="text" placeholder="Number of Cases">
+            <button class="btn" id="cases_submit" type="submit">Submit</button>
+        </div>
+        <button id="again">Again</button>
+        <h2 id="expected_death"></h2>
+    </div>
+    <div id="choices">
+        <div id="random" class="choice">
+            <p>Random</p>
+            <p id="result_random"></p>
+        </div>
+        <div id="choice50" class="choice">
+            <p>50% Choice</p>
+            <p id="result_50"></p>
+        </div>
+        <div id="choice10" class="choice">
+            <p>10% Choice</p>
+            <p id="result_10"></p>
+        </div>
+    </div>
+    <div id="comparison-container">
+        <p id="comparison"></p>
+    </div>
+    <script src="trolley.js"></script>
+</body>
+</html>

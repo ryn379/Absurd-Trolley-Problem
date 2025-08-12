@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img-div img{
+    width: 60vw;
+    height: 60vh;
+}
+#img-div p{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    margin: 2vw;
+    font-size: 2vw;
+}
+#enter input{
+    width: 15vw;
+    height: 3vh;
+    font-size: 1.1vw;
+    font-family: "Comic Relief", system-ui;
+}
+#enter{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#again{
+    display: none;
+    width:5vw;
+    height: 2vw;
+    margin: 1vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-family: "Comic Relief", system-ui;
+    font-size: 1.1vw;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width:5vw;
+    height: 2vw;
+    margin: 1vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    font-family: "Comic Relief", system-ui;
+    font-size: 1.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cases{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#choices{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 15vw;
+    margin-top: 2vw;
+}
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.choice p{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+h2{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+#comparison-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#comparison{
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+
+
+@media (max-width: 600px) {
+  #img-div img {
+    margin-top: 10vw;
+    width: 90vw;
+    height: auto;
+  }
+
+  #img-div p,
+  h2,
+  #comparison {
+    font-size: 4vw; 
+    
+  }
+
+  #enter input {
+    width: 70vw;
+    height: 5vh;
+    font-size: 4vw;
+  }
+
+  #again,
+  .btn {
+    width: 30vw;
+    height: 6vw;
+    font-size: 4vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  #cases,
+  #enter,
+  #choices {
+    flex-direction: column;
+    gap: 3vw;
+    width: 90vw;
+  }
+
+  #choices {
+    gap: 5vw;
+  }
+
+  .choice p {
+    font-size: 3.5vw;
+  }
+
+  #comparison-container {
+    padding: 2vw;
+  }
+}
