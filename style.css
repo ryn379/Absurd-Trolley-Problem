@@ -50,6 +50,7 @@ body{
     font-size: 1.1vw;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 .btn{
     width:5vw;
@@ -64,6 +65,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 #cases{
     display: flex;
@@ -107,7 +109,7 @@ h2{
     margin-top: 1vw;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   #img-div img {
     margin-top: 10vw;
     width: 90vw;
